@@ -14,18 +14,23 @@ from tqdm.autonotebook import tqdm
 import cv2
 
 
-
-INPUT_CHECK_DATASET_PATH =input("Enter the full path to the test images:")
-
 MODEL = "model/last.pt"
 CLASS_ID = [0, 1, 2, 3]
 TARGET_VIDEO_PATH = "result.mp4"
 RGB_IMAGES_FOLDER = "frames_rgb"
 FRAMES_OUTPUT_FOLDER = "frames_output"
 STEP_BY_PICTURE = 0.01
-
 FPS = 20
 
+def find_images_path():
+    pathDir = os.path.dirname(os.path.realpath(__file__))
+    if os.path.isdir(pathDir + "\\frames_rgb"):
+         return pathDir
+    else:
+        pathDir = input("Enter the full path to the folder 'frames_rgb': ")
+        return pathDir
+
+INPUT_CHECK_DATASET_PATH = find_images_path()
 
 @dataclass(frozen=True)
 class BYTETrackerArgs:
