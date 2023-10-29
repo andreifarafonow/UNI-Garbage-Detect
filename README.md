@@ -4,12 +4,12 @@
 ## Описание
 Этот проект посвящен разработке системы видео-аналитики, которая способна автоматически подсчитывать количество твердых бытовых отходов на видеозаписи. Данная система использует технологии *Python* и архитектуру *YOLOv8*, реализованную с использованием фреймворка *PyTorch*.
 
-##Скринкаст
+## Скринкаст
 ![](https://github.com/MaxTube-dot/Asserts/blob/master/train_batch3682.jpg)
 ![](https://github.com/MaxTube-dot/Asserts/blob/master/ezgif.com-optimize.gif)
 
 
-##Архитектура решения
+## Архитектура решения
 
 ![](https://github.com/MaxTube-dot/Asserts/blob/master/image_2023-10-28_20-04-35.png)
 
@@ -41,6 +41,3 @@
 - [Фарафонов Андрей](https://github.com/andreifarafonow "Фарафонов Андрей") - Full-stack  developer, ML engineer
 - [Меркулов Андрей](https://github.com/Dead-CLu8ku "Меркулов Андрей") -  Python developer
 - [Паневин Даниил](https://www.behance.net/daniilpanevin "Паневин Даниил") - Product Designer, Manager
-
-## Лицензия
-Этот проект лицензирован под лицензией MIT. Для получения дополнительной информации о лицензии смотрите файл LICENSE.
