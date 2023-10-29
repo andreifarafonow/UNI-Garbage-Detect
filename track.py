@@ -15,7 +15,8 @@ import cv2
 
 
 
-INPUT_CHECK_DATASET_PATH=""
+INPUT_CHECK_DATASET_PATH =input("Enter the full path to the test images:")
+
 MODEL = "model/last.pt"
 CLASS_ID = [0, 1, 2, 3]
 TARGET_VIDEO_PATH = "result.mp4"
